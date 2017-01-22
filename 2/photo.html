@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк - Фото</title>
+    <base href="https://htmlacademy-adaptive.github.io/211623-pink/2/">
+</head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__top">
+        <a class="logo">
+          <img src="index.html" alt="logo">
+        </a>
+        <button type="button" class="main-nav__toogle" id="toogle">
+
+        </button>
+
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Главная</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="competition.html">Конкурс</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru">Html academy</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="intro">
+        <div class="container">
+          <p class="intro__text">Фотографии пользователей</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <div class="container">
+        <p class="photo__promo">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <!-- 1. Нужны ли здесь обертки? -->
+        <div class="photo__wrapper">
+          <!-- 2. Вверху фотографии текст "Панорама дня" на красном фоне - этот блок спозиционирован абсолютно? -->
+          <img class="photo__img" src="#">
+          <div class="photo__panorama photo__panorama-text">Панорама дня</div>
+          <b class="photo__autor">Анна</b>
+          <span class="photo__time">5 минут назад</span>
+          <p class="photo__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+          <a href="" class="photo__link">Нравится: 215</a>
+        </div>
+        <div class="photo__wrapper">
+          <img class="photo__img" src="#">
+          <b class="photo__autor">Левон</b>
+          <span class="photo__time">5 часов назад</span>
+          <p class="photo__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <a href="" class="photo__link">Нравится: 356</a>
+        </div>
+        <div class="photo__wrapper">
+          <img class="photo__img" src="#">
+          <b class="photo__autor">Антон</b>
+          <span class="photo__time">12 часов назад</span>
+          <p class="photo__text">Соседи будут рады!</p>
+          <a href="" class="photo__link">Нравится: 666</a>
+        </div>
+        <div class="photo__wrapper">
+          <img class="photo__img" src="#">
+          <b class="photo__autor">Борис</b>
+          <span class="photo__time">20 часов назад</span>
+          <p class="photo__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <a href="" class="photo__link">Нравится: 215</a>
+        </div>
+        <div class="photo__wrapper">
+          <img class="photo__img" src="#">
+          <b class="photo__autor">Сергей</b>
+          <span class="photo__time">25 часов назад</span>
+          <p class="photo__text">Самая кубанская в мире!</p>
+          <a href="" class="photo__link">Нравится: 4</a>
+        </div>
+        <div class="photo__wrapper">
+          <img class="photo__img" src="#">
+          <b class="photo__autor">Максим</b>
+          <span class="photo__time">40 часов назад</span>
+          <p class="photo__text">Где снег-то?</p>
+          <a href="" class="photo__link">Нравится: 150</a>
+        </div>
+        <div class="photo__wrapper">
+          <img class="photo__img" src="#">
+          <b class="photo__autor">Надежда</b>
+          <span class="photo__time">45 часов назад</span>
+          <p class="photo__text">Всем GM и взаимные лайки!</p>
+          <a href="" class="photo__link">Нравится: 2560</a>
+        </div>
+        <p class="photo__promo">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+        <div class="upload">
+          <div class="container">
+            <img src="#" alt="" class="upload__photo">
+            <button class="btn btn__upload" type="button"></button>
+            <button class="btn btn__upload" type="button"></button>
+            <button class="btn btn__upload" type="button"></button>
+            <!-- 3. Как правильно разметить ползунок? -->
+            <div class="upload__range">
+                <div class="scale"></div>
+                <div class="toggle"></div>
+            </div>
+            <button class="btn btn__post">Запостить</button>
+            <button class="btn btn__cancel">Отмена</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <!-- 4. Нужна ли здесь доп обертка? -->
+        <div class="page-footer__wrapper">
+          <div><img src="#" alt="" class="logo"></div>
+          <div class="social">
+            <a href="https://twitter.com/htmlacademy_ru" class="social-link  social-link--tw"></a>
+            <a href="https://www.facebook.com/htmlacademy" class="social-link  social-link--fb"></a>
+            <a href="https://www.youtube.com/htmlacademy" class="social-link  social-link--ut"></a>
+          </div>
+          <div class="page-footer__copyright">
+            Разработано
+            <a href="http://htmlacademy.ru" class="page-footer__copyright-link"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
